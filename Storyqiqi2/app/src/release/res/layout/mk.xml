@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.xyfenmgo.storyqiqi.se">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="《秦晋崤之战》"
+        android:id="@+id/b1"
+        android:onClick="class1"
+        android:layout_alignTop="@+id/b2"
+        android:layout_toEndOf="@+id/b2" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="秋水节选"
+        android:id="@+id/b2"
+        android:onClick="class2"
+        android:layout_below="@+id/b3"
+        android:layout_toEndOf="@+id/b1" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="《寡人之于国也》"
+        android:id="@+id/b3"
+        android:onClick="class3"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/b1" />
+
+
+
+</RelativeLayout>

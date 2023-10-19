@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/yu"
+
+    tools:context="org.xyfenmgo.storyqiqi.class24">
+
+
+    <VideoView android:id="@+id/video_view"
+        android:layout_width="2500dp"
+        android:layout_height="180dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="　对潇潇暮雨洒江天，一番洗清秋。渐霜风凄紧，关河冷落，残照当楼。是处红衰翠减，苒苒物华休。唯有长江水，无语东流。
+
+　　不忍登高临远，望故乡渺邈，归思难收。叹年来踪迹，何事苦淹留？想佳人，妆楼颙望，误几回、天际识归舟。争知我，倚栏杆处，正恁凝愁！"
+        android:id="@+id/textView5"
+        android:layout_below="@+id/video_view"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

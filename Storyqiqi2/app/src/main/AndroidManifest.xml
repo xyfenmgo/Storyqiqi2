@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.xyfenmgo.storyqiqi">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/img"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".qwq">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".start" />
+        <activity android:name=".se" />
+        <activity android:name=".class1" />
+        <activity android:name=".class2" />
+        <activity android:name=".class3" />
+        <activity android:name=".class4" />
+        <activity android:name=".class5" />
+        <activity android:name=".class6" />
+        <activity android:name=".class7" />
+        <activity android:name=".class8" />
+        <activity android:name=".class9" />
+        <activity android:name=".class11" />
+        <activity android:name=".class10" />
+        <activity android:name=".class13" />
+        <activity android:name=".class15" />
+        <activity android:name=".class16" />
+        <activity android:name=".class17" />
+        <activity android:name=".class18" />
+        <activity android:name=".class19" />
+        <activity android:name=".class20" />
+        <activity android:name=".class21" />
+        <activity android:name=".class22" />
+        <activity android:name=".class23" />
+        <activity android:name=".class24" />
+        <activity android:name=".class25" />
+        <activity android:name=".class27" />
+        <activity android:name=".class28" />
+        <activity android:name=".class29"></activity>
+    </application>
+
+</manifest>

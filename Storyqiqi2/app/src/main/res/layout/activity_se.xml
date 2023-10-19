@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/f1"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="org.xyfenmgo.storyqiqi.MainActivity">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="《秦晋崤之战》"
+        android:onClick="class1"
+        android:id="@+id/button"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="秋水节选"
+        android:onClick="class2"
+        android:id="@+id/button2"
+        android:layout_below="@+id/button"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="《寡人之于国也》"
+        android:onClick="class3"
+        android:id="@+id/button3"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="class4"
+        android:text="谏逐客书"
+        android:id="@+id/button4"
+        android:layout_below="@+id/button3"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="class5"
+        android:text="过秦论"
+        android:id="@+id/button5"
+        android:layout_below="@+id/button4"
+        android:layout_alignEnd="@+id/button4" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="冯谖客孟尝君"
+        android:onClick="class6"
+        android:id="@+id/button6"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="五代史伶官传序"
+        android:onClick="class7"
+        android:id="@+id/button7"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/button" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="垓下之围"
+        android:onClick="class8"
+        android:id="@+id/button8"
+        android:layout_below="@+id/button"
+        android:layout_alignStart="@+id/button20" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="class9"
+        android:text="张中丞传后叙"
+        android:id="@+id/button9"
+        android:layout_above="@+id/button10"
+        android:layout_toEndOf="@+id/button3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="种树郭橐驼传"
+        android:onClick="class10"
+        android:id="@+id/button10"
+        android:layout_above="@+id/button11"
+        android:layout_toEndOf="@+id/button6" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="前赤壁赋"
+        android:onClick="class11"
+        android:id="@+id/button11"
+        android:layout_above="@+id/button6"
+        android:layout_alignStart="@+id/button10" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#先妣事略"
+        android:id="@+id/button12"
+        android:layout_alignBottom="@+id/button6"
+        android:layout_alignEnd="@+id/button11" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="西湖七月半"
+        android:onClick="class13"
+        android:id="@+id/button13"
+        android:layout_below="@+id/button6"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="##马伶传"
+        android:id="@+id/button14"
+        android:layout_alignTop="@+id/button13"
+        android:layout_alignStart="@+id/button12" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="湘夫人"
+        android:onClick="class15"
+        android:id="@+id/button15"
+        android:layout_below="@+id/button13"
+        android:layout_alignEnd="@+id/button13" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="蒹葭"
+        android:onClick="class16"
+        android:id="@+id/button16"
+        android:layout_alignBottom="@+id/button15"
+        android:layout_alignEnd="@+id/button14" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="陌上桑"
+        android:onClick="class17"
+        android:id="@+id/button17"
+        android:layout_below="@+id/button15"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="归园田居（其一）"
+        android:onClick="class18"
+        android:id="@+id/button18"
+        android:layout_below="@+id/button16"
+        android:layout_alignEnd="@+id/button9" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="行路难（其一）"
+        android:onClick="class19"
+        android:id="@+id/button19"
+        android:layout_below="@+id/button17"
+        android:layout_alignEnd="@+id/button17" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登高"
+        android:onClick="class20"
+        android:id="@+id/button20"
+        android:layout_alignBottom="@+id/button19"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="长恨歌"
+        android:onClick="class21"
+        android:id="@+id/button21"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/button19" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="早雁"
+        android:onClick="class22"
+        android:id="@+id/button22"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/button20" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="虞美人"
+        android:onClick="class23"
+        android:id="@+id/button23"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/button7" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="八声甘州"
+        android:onClick="class24"
+        android:id="@+id/button24"
+        android:layout_below="@+id/button23"
+        android:layout_alignEnd="@+id/button23" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="江城子"
+        android:onClick="class25"
+        android:id="@+id/button25"
+        android:layout_below="@+id/button24"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/button7" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#声声慢秋情"
+        android:id="@+id/button26"
+        android:layout_above="@+id/button11"
+        android:layout_toEndOf="@+id/button10" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="摸鱼儿"
+        android:onClick="class27"
+        android:id="@+id/button27"
+        android:layout_below="@+id/button26"
+        android:layout_alignEnd="@+id/button26" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="再别康桥"
+        android:onClick="class28"
+        android:id="@+id/button28"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/button10" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="雨巷"
+        android:onClick="class29"
+        android:id="@+id/button29"
+        android:layout_below="@+id/button28"
+        android:layout_alignStart="@+id/button27" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#我愿是一条急流"
+        android:id="@+id/button32"
+        android:layout_alignTop="@+id/button20"
+        android:layout_toEndOf="@+id/button18" />
+</RelativeLayout>
